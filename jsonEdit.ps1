@@ -12,3 +12,4 @@ Param(
 $configData = Get-Content -Raw -Path $JsonPath | ConvertFrom-Json
 $configData.apiUrl = $apiURL
 $configData | ConvertTo-Json | Set-Content $JsonPath
+3233333333
